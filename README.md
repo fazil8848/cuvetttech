@@ -1,4 +1,4 @@
-# Cuvett-tech
+# Cuvette tech
 
 ![Logo](https://github.com/fazil8848/cuvetttech/blob/main/cuvettIcon.svg)
 
