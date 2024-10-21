@@ -119,10 +119,10 @@ Here are the required environment variables for the backend:
 
 ## Usage
 
-    After starting the server and frontend, navigate to the registration or login page.
-    Register a company account and log in using OTP verification.
-    Navigate to the dashboard to post jobs and create interviews.
-    Automatic emails will be sent to candidates based on job postings.
+After starting the server and frontend, navigate to the registration or login page.
+Register a company account and log in using OTP verification.
+Navigate to the dashboard to post jobs and create interviews.
+Automatic emails will be sent to candidates based on job postings.
 
 ## Folder Structure
 
