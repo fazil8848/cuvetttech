@@ -99,7 +99,7 @@ Create a .env file in the backend directory with the following details:
    ```
 Open http://localhost:5173 to view the app in your browser.
 
-**Environment Variables
+## Environment Variables
 Here are the required environment variables for the backend:
 
     MONGO_URI: MongoDB connection string.
@@ -109,7 +109,7 @@ Here are the required environment variables for the backend:
     SMTP_USER: Email address used for sending emails.
     SMTP_PASS: Password for the email account.
 
-**Usage
+##Usage
     After starting the server and frontend, navigate to the registration or login page.
     Register a company account and log in using OTP verification.
     Navigate to the dashboard to post jobs and create interviews.
@@ -133,7 +133,7 @@ Here are the required environment variables for the backend:
       ├── .env
       ├── package.json
 
-**Contributing
+##Contributing
 Contributions are welcome! Follow these steps:
 
   1. Fork the repository.
@@ -142,7 +142,7 @@ Contributions are welcome! Follow these steps:
   4. Push to the branch: git push origin my-feature-branch.
   5. Submit a pull request.
 
-**License
+##License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
