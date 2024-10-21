@@ -76,7 +76,7 @@ For the frontend:
  npm install
 ```
 
-3 **Set up the environment variables:**
+3. **Set up the environment variables:**
 
 Create a .env file in the backend directory with the following details:
 
