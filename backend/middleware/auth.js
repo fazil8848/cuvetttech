@@ -6,7 +6,9 @@ const auth = (req, res, next) => {
   if (!authHeader) {
     return res.status(401).json({ error: "Authorization header is missing" });
   }
+
   const token = authHeader.replace("Bearer ", "");
+
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     req.userId = decoded.id;

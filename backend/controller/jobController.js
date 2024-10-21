@@ -23,6 +23,8 @@ const addNewJob = async (req, res) => {
     skills,
   } = req.body;
 
+  console.log(req.body);
+
   if (
     !jobTittle ||
     !jobDescription ||
@@ -39,6 +41,7 @@ const addNewJob = async (req, res) => {
   }
 
   try {
+    // Create new job document with additional fields
     const newJob = new Jobs({
       jobTittle,
       jobDescription,
@@ -49,9 +52,10 @@ const addNewJob = async (req, res) => {
       type,
       salary,
       skills,
-      postedBy: req.userId,
+      postedBy: req.userId, // Assuming `req.userId` contains the ID of the logged-in user
     });
 
+    // Save the new job to the database
     await newJob.save();
 
     res.status(201).json({ message: "Job created successfully", job: newJob });
