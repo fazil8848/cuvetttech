@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 # cuvetttech
 
 ![Logo]("./frontend/public/cuvettIcon.svg")
+=======
+# Cuvette tech
+
+![Logo](https://github.com/fazil8848/cuvetttech/blob/main/cuvettIcon.svg)
+
+>>>>>>> a515f0fc6a14b929a714ba5838d7090f55825bf2
 
 A full-stack Job Posting Board with Email Automation system that allows companies to register, verify accounts via email, post job openings, and automate emails to candidates.
 
@@ -74,7 +81,11 @@ For the frontend:
 ```
 3  **Set up the environment variables:
 
+<<<<<<< HEAD
 Create a .env file in the backend directory with the following details:
+=======
+   Create a .env file in the backend directory with the following details:
+>>>>>>> a515f0fc6a14b929a714ba5838d7090f55825bf2
 
   ```bash
     MONGO_URI=mongodb://localhost:27017/your-database-name
@@ -98,8 +109,13 @@ Create a .env file in the backend directory with the following details:
    ```
 Open http://localhost:5173 to view the app in your browser.
 
+<<<<<<< HEAD
 **Environment Variables
 Here are the required environment variables for the backend:
+=======
+## Environment Variables
+   Here are the required environment variables for the backend:
+>>>>>>> a515f0fc6a14b929a714ba5838d7090f55825bf2
 
     MONGO_URI: MongoDB connection string.
     JWT_SECRET: Secret key for JWT token generation.
@@ -108,13 +124,21 @@ Here are the required environment variables for the backend:
     SMTP_USER: Email address used for sending emails.
     SMTP_PASS: Password for the email account.
 
+<<<<<<< HEAD
 **Usage
+=======
+## Usage
+>>>>>>> a515f0fc6a14b929a714ba5838d7090f55825bf2
     After starting the server and frontend, navigate to the registration or login page.
     Register a company account and log in using OTP verification.
     Navigate to the dashboard to post jobs and create interviews.
     Automatic emails will be sent to candidates based on job postings.
     
+<<<<<<< HEAD
     ```Folder Structure
+=======
+## Folder Structure
+>>>>>>> a515f0fc6a14b929a714ba5838d7090f55825bf2
     /frontend
       ├── /public
       ├── /src
@@ -132,6 +156,7 @@ Here are the required environment variables for the backend:
       ├── .env
       ├── package.json
 
+<<<<<<< HEAD
 **Contributing
 Contributions are welcome! Follow these steps:
 
@@ -155,6 +180,34 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - **Folder Structure**: Briefly explain the key folders and files.
 - **Contributing**: Guidelines for contributing to the project.
 - **License**: Add licensing information.
+=======
+
+## Contributing
+   
+Contributions are welcome! Follow these steps:
+
+   1. Fork the repository.
+   2. Create a new branch: git checkout -b my-feature-branch.
+   3. Make your changes and commit them: git commit -m 'Add my feature'.
+   4. Push to the branch: git push origin my-feature-branch.
+   5. Submit a pull request.
+
+## License
+
+   This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+### Explanation of Sections:
+   - **Project Name**: Add the name of your project.
+   - **Features**: List out the key features of the project.
+   - **Technologies Used**: Mention the tech stack (frontend and backend).
+   - **Installation**: Detailed instructions to get the project running locally.
+   - **Environment Variables**: Clearly list all required environment variables.
+   - **Usage**: Basic instructions on how to use the project.
+   - **Folder Structure**: Briefly explain the key folders and files.
+   - **Contributing**: Guidelines for contributing to the project.
+   - **License**: Add licensing information.
+>>>>>>> a515f0fc6a14b929a714ba5838d7090f55825bf2
 
 This template should provide a clear understanding of your project for anyone who visits your GitHub repository. Let me know if you need any more customization!
 
