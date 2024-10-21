@@ -75,7 +75,7 @@ For the frontend:
 ```
 3  **Set up the environment variables:
 
-Create a .env file in the backend directory with the following details:
+   Create a .env file in the backend directory with the following details:
 
   ```bash
     MONGO_URI=mongodb://localhost:27017/your-database-name
@@ -100,7 +100,7 @@ Create a .env file in the backend directory with the following details:
 Open http://localhost:5173 to view the app in your browser.
 
 ## Environment Variables
-Here are the required environment variables for the backend:
+   Here are the required environment variables for the backend:
 
     MONGO_URI: MongoDB connection string.
     JWT_SECRET: Secret key for JWT token generation.
@@ -133,29 +133,31 @@ Here are the required environment variables for the backend:
       ├── .env
       ├── package.json
 
-##Contributing
-Contributions are welcome! Follow these steps:
 
-  1. Fork the repository.
-  2. Create a new branch: git checkout -b my-feature-branch.
-  3. Make your changes and commit them: git commit -m 'Add my feature'.
-  4. Push to the branch: git push origin my-feature-branch.
-  5. Submit a pull request.
+##Contributing
+   Contributions are welcome! Follow these steps:
+
+     1. Fork the repository.
+     2. Create a new branch: git checkout -b my-feature-branch.
+     3. Make your changes and commit them: git commit -m 'Add my feature'.
+     4. Push to the branch: git push origin my-feature-branch.
+     5. Submit a pull request.
 
 ##License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
+   This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 ### Explanation of Sections:
-- **Project Name**: Add the name of your project.
-- **Features**: List out the key features of the project.
-- **Technologies Used**: Mention the tech stack (frontend and backend).
-- **Installation**: Detailed instructions to get the project running locally.
-- **Environment Variables**: Clearly list all required environment variables.
-- **Usage**: Basic instructions on how to use the project.
-- **Folder Structure**: Briefly explain the key folders and files.
-- **Contributing**: Guidelines for contributing to the project.
-- **License**: Add licensing information.
+   - **Project Name**: Add the name of your project.
+   - **Features**: List out the key features of the project.
+   - **Technologies Used**: Mention the tech stack (frontend and backend).
+   - **Installation**: Detailed instructions to get the project running locally.
+   - **Environment Variables**: Clearly list all required environment variables.
+   - **Usage**: Basic instructions on how to use the project.
+   - **Folder Structure**: Briefly explain the key folders and files.
+   - **Contributing**: Guidelines for contributing to the project.
+   - **License**: Add licensing information.
 
 This template should provide a clear understanding of your project for anyone who visits your GitHub repository. Let me know if you need any more customization!
 
