@@ -1,6 +1,6 @@
 # cuvetttech
 
-![Logo]("./frontend/public/cuvettIcon.svg")
+![Logo]("./cuvettIcon.svg")
 
 A full-stack Job Posting Board with Email Automation system that allows companies to register, verify accounts via email, post job openings, and automate emails to candidates.
 
