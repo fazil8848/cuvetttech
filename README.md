@@ -109,13 +109,13 @@ Open http://localhost:5173 to view the app in your browser.
     SMTP_USER: Email address used for sending emails.
     SMTP_PASS: Password for the email account.
 
-##Usage
+## Usage
     After starting the server and frontend, navigate to the registration or login page.
     Register a company account and log in using OTP verification.
     Navigate to the dashboard to post jobs and create interviews.
     Automatic emails will be sent to candidates based on job postings.
     
-    ```Folder Structure
+## Folder Structure
     /frontend
       ├── /public
       ├── /src
@@ -134,16 +134,17 @@ Open http://localhost:5173 to view the app in your browser.
       ├── package.json
 
 
-##Contributing
-   Contributions are welcome! Follow these steps:
+## Contributing
+   
+Contributions are welcome! Follow these steps:
 
-     1. Fork the repository.
-     2. Create a new branch: git checkout -b my-feature-branch.
-     3. Make your changes and commit them: git commit -m 'Add my feature'.
-     4. Push to the branch: git push origin my-feature-branch.
-     5. Submit a pull request.
+   1. Fork the repository.
+   2. Create a new branch: git checkout -b my-feature-branch.
+   3. Make your changes and commit them: git commit -m 'Add my feature'.
+   4. Push to the branch: git push origin my-feature-branch.
+   5. Submit a pull request.
 
-##License
+## License
 
    This project is licensed under the MIT License. See the LICENSE file for details.
 
