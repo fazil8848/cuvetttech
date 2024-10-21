@@ -55,13 +55,12 @@ Before you begin, make sure you have the following installed on your system:
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+```bash
+  git clone https://github.com/fazil8848/cuvetttech.git
+  cd cuvetttech
+```
 
-   ```
-
-2. \*\*Install dependencies for both frontend and backend:
+2. **Install dependencies for both frontend and backend:**
 
 For the backend:
 
@@ -77,7 +76,7 @@ For the frontend:
  npm install
 ```
 
-3 \*\*Set up the environment variables:
+3 **Set up the environment variables:**
 
 Create a .env file in the backend directory with the following details:
 
@@ -90,12 +89,13 @@ Create a .env file in the backend directory with the following details:
   SMTP_PASS=your-email-password
 ```
 
-4. \*\*Start the application:
+4. **Start the application:**
    Backend:
-   ```bash
-   cd backend
-   npm start
-   ```
+
+```bash
+  cd backend
+  npm start
+```
 
 Frontend:
 
